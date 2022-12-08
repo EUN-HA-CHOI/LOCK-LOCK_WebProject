@@ -318,7 +318,7 @@ next.addEventListener("click",()=>{
 
 
 // content8
-
+/*
 const esgImg = document.querySelector(".esg_img");
 const esgText = document.querySelectorAll(".esg_txt>dl");
 for(let i=0; i<esgText.length; i++){
@@ -341,6 +341,7 @@ for(let i=0; i<esgText.length; i++){
         }
     })
 }
+*/
 
 
 // content1~4 opacity
