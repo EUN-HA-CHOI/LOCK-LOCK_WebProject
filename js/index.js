@@ -17,9 +17,9 @@ function autoBanner(){
     banner.style.left = `${-bannerNum * 100}%`;
     controler[bannerNum].classList.add("on");
 
-    setTimeout(autoBanner,5000);
+    setTimeout(autoBanner,1000);
 }
-let autoBn = setTimeout(autoBanner,5000);
+let autoBn = setTimeout(autoBanner,1000);
 
 // familysite list
 const familySite = document.querySelector(".family_sites>li>button");
